@@ -13,7 +13,7 @@ Was the model able to achieve the target model performance?
 Three attempts taken to increase the model performance are:
 * Attempt 1: Dropped an additional non-beneficial column that is the 'USE_CASE' column and the other columns stayed the same.
 I used the same number of hidden layers and neurons (i.e. first hidden layer with 8 neurons and second hidden layer with 5 neurons) and an output layer. The accuracy of the model stayed at 73%.
-* Attempt 2: 
+* Attempt 2: To optimize the neural netowkr model, I added an extra hidden layer, and additional neurons was added to all hidden layers (i.e. hidden layer 1=100 nuerons, hidden layer 2 = 50 neurons and hidden layer 3 = 20 neurons). However, the accuracy stayed the same at 73%. 
 * Attempt 3:
 
 # Summary
