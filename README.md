@@ -3,7 +3,7 @@
 # Results
 ### Data Preprocessing
 ### Compile, Train, and Evaluate the Model 
-My neural network model had 2 hidden layers and one output layer. My first hidden layer had 8 neurons and the second hidden layer had 5 layers. The first and second hidden layers have the activation function "relu" and "sigmoid" actication function for the output layer. 
+My neural network model had 2 hidden layers and an output layer. My first hidden layer had 8 neurons and the second hidden layer had 5 layers. The first and second hidden layers have the activation function "relu" and "sigmoid" actication function for the output layer. 
 
 Was the model able to achieve the target model performance?
 * My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%.
@@ -11,8 +11,9 @@ Was the model able to achieve the target model performance?
 
 ### Model Optimization
 Three attempts taken to increase the model performance are:
-* Attempt 1:
-* Attempt 2:
+* Attempt 1: Dropped an additional non-beneficial column that is the 'USE_CASE' column and the other columns stayed the same.
+I used the same number of hidden layers and neurons (i.e. first hidden layer with 8 neurons and second hidden layer with 5 neurons) and an output layer. The accuracy of the model stayed at 73%.
+* Attempt 2: 
 * Attempt 3:
 
 # Summary
