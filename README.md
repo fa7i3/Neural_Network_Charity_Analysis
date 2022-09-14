@@ -1,5 +1,10 @@
 # Neural_Network_Charity_Analysis
 # Overview
+For this project, I used Machine Learning and Neural Networks with the TensorFlow platform in Python to analyze and classify the prediction of successful applicants funded by Alphabet Soup.
+This analysis was done using the following methods:
+* Preprocessing Data for a Neural Network Model;
+* Compile, Train, and Evaluate the Model;
+* Optimize the Model.
 # Results
 ### Data Preprocessing
 ### Compile, Train, and Evaluate the Model 
