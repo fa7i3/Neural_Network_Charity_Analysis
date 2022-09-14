@@ -6,7 +6,7 @@ This analysis was done using the following methods:
 * Compile, Train, and Evaluate the Model;
 * Optimize the Model.
 # Resources
-* Dataset: (charity_data.csv([https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_19/charity_data.csv]
+* Dataset: (charity_data.csv)[https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-online/module_19/charity_data.csv]
 # Results
 ### Data Preprocessing
 ### Compile, Train, and Evaluate the Model 
