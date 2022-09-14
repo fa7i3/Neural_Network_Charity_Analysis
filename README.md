@@ -22,7 +22,22 @@ Was the model able to achieve the target model performance?
 Three attempts taken to increase the model performance are:
 * Attempt 1: Dropped an additional non-beneficial column that is the 'USE_CASE' column and the other columns stayed the same.
 I used the same number of hidden layers and neurons (i.e. first hidden layer with 8 neurons and second hidden layer with 5 neurons) and an output layer. The accuracy of the model stayed at 73%.
-* Attempt 2: To optimize the neural network model, I added an extra hidden layer, and additional neurons was added to all hidden layers (i.e. hidden layer 1=200 nuerons, hidden layer 2 = 100 neurons and hidden layer 3 = 30 neurons). However, the accuracy stayed the same at 73%. 
-* Attempt 3: I changed the activation function to "tanh" for the output layer and changed the Epochs to 50. Also, the accuracy stayed at 73%.
+
+
+
+
+
+* Attempt 2: To optimize the neural network model, I added an extra hidden layer, and additional neurons was added to all hidden layers (i.e. hidden layer 1=200 nuerons, hidden layer 2 = 100 neurons and hidden layer 3 = 30 neurons). However, the accuracy stayed the same at 73%.
+
+
+
+
+
+* Attempt 3: I changed the activation function to "tanh" for the output layer and changed the Epochs to 200. Also, the accuracy stayed at 73%.
+
+
+
+
 
 # Summary
+My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%. After optimization, the neural network model still had an accurcay of 73%. 
