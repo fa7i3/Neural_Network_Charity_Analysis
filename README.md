@@ -11,6 +11,9 @@ This analysis was done using the following methods:
 * Libraries: TensorFlow, Pandas, Scikit-learn
 # Results
 ### Data Preprocessing
+* Variable considered a target for my model: IS_SUCCESSFUL Column;
+* Variables considered to be features of my model: Every column in the dataset except my target column IS_SUCCESSFUL and the dropped columns;
+* Variables that were neither targets nor features and removed: Columns dropped were EIN and NAME because they are non-beneficial to the dataset. 
 ### Compile, Train, and Evaluate the Model 
 My neural network model had 2 hidden layers and an output layer. My first hidden layer had 8 neurons and the second hidden layer had 5 layers. The first and second hidden layers have the activation function "relu" and "sigmoid" actication function for the output layer. 
 
@@ -40,4 +43,4 @@ I used the same number of hidden layers and neurons (i.e. first hidden layer wit
 
 
 # Summary
-My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%. After optimization, the neural network model still had an accurcay of 73%. 
+My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%. After optimization, the neural network model still had an accurcay of 73%. We can further optimize the neural network model by removing some features or non-beneficial columns from the dataset. This is a binary classification, a supervised machine learning model such as Random Forest Classifiers can be used because it is an accurate model.
