@@ -17,8 +17,17 @@ This analysis was done using the following methods:
 ### Compile, Train, and Evaluate the Model 
 My neural network model had 2 hidden layers and an output layer. My first hidden layer had 8 neurons and the second hidden layer had 5 layers. The first and second hidden layers have the activation function "relu" and "sigmoid" actication function for the output layer. 
 
+
+![deliverable 1 snip](https://user-images.githubusercontent.com/104453593/190316487-1cf4fdd6-e6b1-41c2-ae65-35c3f57cb3a9.PNG)
+
+
+
+
 Was the model able to achieve the target model performance?
 * My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%.
+
+![deliverable 1 snip a](https://user-images.githubusercontent.com/104453593/190316515-43327d9c-5169-42cb-ad14-05aeee4691c3.PNG)
+
 
 
 ### Model Optimization
