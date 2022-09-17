@@ -59,4 +59,4 @@ I used the same number of hidden layers and neurons (i.e. first hidden layer wit
 
 
 # Summary
-My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%. After optimization, the neural network model still had an accurcay of 73%. We can further optimize the neural network model by removing some features or non-beneficial columns from the dataset. This is a binary classification, a supervised machine learning model such as Random Forest Classifiers can be used because it is an accurate model and have a faster performance than neural network model.
+My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%. After optimization, the neural network model still had an accurcay of 73%. We can further optimize the neural network model by removing some features or non-beneficial columns from the dataset. Since this is a binary classification, a supervised machine learning model such as Random Forest Classifiers can be used because it is a robust and accurate model and have a faster performance than neural network model.
