@@ -15,7 +15,7 @@ This analysis was done using the following methods:
 * Variables considered to be features of my model: Every column in the dataset except my target column IS_SUCCESSFUL and the dropped columns;
 * Variables that were neither targets nor features and removed: Columns dropped were EIN and NAME because they are non-beneficial to the dataset. 
 ### Compile, Train, and Evaluate the Model 
-My neural network model had 2 hidden layers and an output layer. My first hidden layer had 8 neurons and the second hidden layer had 5 layers. The first and second hidden layers have the activation function "relu" and "sigmoid" actication function for the output layer. 
+My neural network model had 2 hidden layers and an output layer. My first hidden layer had 8 neurons and the second hidden layer had 5 layers. The first and second hidden layers have the activation function "relu" and "sigmoid" activation function for the output layer. 
 
 
 ![deliverable 1 snip](https://user-images.githubusercontent.com/104453593/190316487-1cf4fdd6-e6b1-41c2-ae65-35c3f57cb3a9.PNG)
@@ -42,7 +42,7 @@ I used the same number of hidden layers and neurons (i.e. first hidden layer wit
 ![attempt 1 snip a](https://user-images.githubusercontent.com/104453593/190316621-33ca81ac-e292-454b-8f84-318c90024cdc.PNG)
 
 
-* Attempt 2: To optimize the neural network model, I added an extra hidden layer, and additional neurons was added to all hidden layers (i.e. hidden layer 1=200 nuerons, hidden layer 2 = 100 neurons and hidden layer 3 = 30 neurons). However, the accuracy stayed the same at 73%.
+* Attempt 2: To optimize the neural network model, I added an extra hidden layer, and additional neurons was added to all hidden layers (i.e. hidden layer 1=200 neurons, hidden layer 2 = 100 neurons and hidden layer 3 = 30 neurons). However, the accuracy stayed the same at 73%.
 
 ![attempt 2 snip](https://user-images.githubusercontent.com/104453593/190316636-2d3b8c74-b3db-4a8f-8e84-4a87a29f83f9.PNG)
 
@@ -59,4 +59,4 @@ I used the same number of hidden layers and neurons (i.e. first hidden layer wit
 
 
 # Summary
-My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%. After optimization, the neural network model still had an accurcay of 73%. We can further optimize the neural network model by removing some features or non-beneficial columns from the dataset. Since this is a binary classification, a supervised machine learning model such as Random Forest Classifiers can be used because it is a robust and accurate model and have a faster performance than neural network model.
+My neural network model had an accuracy of 73% and wasn't able to reach the target accuracy of 75%. After optimization, the neural network model still had an accuracy of 73%. We can further optimize the neural network model by removing some features or non-beneficial columns from the dataset. Since this is a binary classification, a supervised machine learning model such as Random Forest Classifiers can be used because it is a robust and accurate model and have a faster performance than neural network model.
